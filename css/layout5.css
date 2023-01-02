@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFBA00;
+    font-family: 'Open' sans;
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+  }
+
+  .flex-item{
+    
+    width: auto;
+    height: auto;
+ }
+ 
+ .flex-item img{
+    width: 300px;
+    height: 350px;
+ }
+
+ .flex-item h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+ }
+ .flex-item h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+ }
+ .flex-item h3{
+    text-align: center;
+ }
+
+ h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+ @media(max-width=700px){
+    .flex-container{
+        flex-direction: column;
+    } 
+ }
