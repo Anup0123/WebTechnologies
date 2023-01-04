@@ -17,10 +17,9 @@
 }
 
 .container .content img{
-    height: 640px;
+    height: 707px;
     width: 100%;
 }
-
 .content h1,h5,h6{
     color: white;
     
@@ -70,3 +69,4 @@ button a{
         width: 100%;
     }
 }
+

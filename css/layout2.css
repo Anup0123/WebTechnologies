@@ -40,7 +40,7 @@ h2 {
 
 img {
   width: 50%;
-  height: 648px;
+  height: 713px;
 }
 .button {
   margin-top: 20px;
@@ -63,8 +63,15 @@ img {
   background: black;
   color: orange;
 }
-@media screen and (max-width: 1024px) {
-  .button a {
-    font-size: 16px;
+
+@media(max-width:800px){
+  .container{
+    flex-direction: column;
+  }
+  .content-wrapper,img{
+    width: 100%;
+  }
+  .content-wrapper{
+    text-align: center;
   }
 }
